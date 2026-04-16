@@ -43,16 +43,12 @@ My research interest includes sensors and actuators. I have published more than 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.06* Outstanding Graduate of Beijing.
 
 # 📖 Educations
 - *2021.09 - 2024.06*, M.S. in Instrumentation Science and Technology, Tsinghua University, Shenzhen, China.
 - *2017.09 - 2021.06*, B.S. in Electronic Information Science and Technology, Xiamen University, Xiamen, China.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2023.07 - 2023.10*, [Tencent Robotics X](https://roboticsx.tencent.com/#/), China.
+- *2023.10 - 2023.11*, Huawei 2012 Lab, China.

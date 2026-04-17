@@ -23,8 +23,7 @@ My research interest includes sensors and actuators. I have published more than 
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.04*: &nbsp;🎉🎉 Our paper "In Situ Detection of Ferromagnetic Wear Debris for Machinery Condition Monitoring" has been accepted for publication in IEEE Sensors Journal (IF: 4.3).
 
 # 📝 Publications 
 

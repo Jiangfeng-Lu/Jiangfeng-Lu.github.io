@@ -44,6 +44,7 @@ My research interest includes sensors and actuators. I have published more than 
 
 # 🎖 Honors and Awards
 - *2024.06*, [Outstanding Graduate of Beijing](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html).
+- *2021.06*, Outstanding Graduate of Xiamen University.
 
 # 📖 Educations
 - *2021.09 - 2024.06*, M.S. in Instrumentation Science and Technology, Tsinghua University, Shenzhen, China.

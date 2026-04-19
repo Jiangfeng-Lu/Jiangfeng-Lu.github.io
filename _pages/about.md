@@ -23,7 +23,7 @@ My research interest includes sensors and actuators. I have published more than 
 
 
 # 🔥 News
-- *2026.04*: &nbsp;🎉🎉 Our paper [In Situ Detection of Ferromagnetic Wear Debris for Machinery Condition Monitoring](https://ieeexplore.ieee.org/document/11478654) has been accepted for publication in [IEEE Sensors Journal](https://ieee-sensors.org/ieee-sensors-journal/) (IF: 4.3).
+- *2026.04*, Our paper [In Situ Detection of Ferromagnetic Wear Debris for Machinery Condition Monitoring](https://ieeexplore.ieee.org/document/11478654) has been accepted for publication in [IEEE Sensors Journal](https://ieee-sensors.org/ieee-sensors-journal/) (IF: 4.3).
 
 # 📝 Publications 
 
@@ -42,7 +42,7 @@ My research interest includes sensors and actuators. I have published more than 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2024.06* Outstanding Graduate of Beijing.
+- *2024.06*, [Outstanding Graduate of Beijing](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html).
 
 # 📖 Educations
 - *2021.09 - 2024.06*, M.S. in Instrumentation Science and Technology, Tsinghua University, Shenzhen, China.

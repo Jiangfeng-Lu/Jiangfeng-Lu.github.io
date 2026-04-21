@@ -25,7 +25,7 @@ My research interest includes sensors and actuators. I have published more than 
 # 🔥 News
 - *2026.04*, Our paper [In Situ Detection of Ferromagnetic Wear Debris for Machinery Condition Monitoring](https://ieeexplore.ieee.org/document/11478654) has been published in [IEEE Sensors Journal](https://ieee-sensors.org/ieee-sensors-journal/) (IF: 4.3).
 - *2024.08*, Our paper [LeapRun: A Dynamic Soft Robot with Running and Jumping Capabilities](https://ieeexplore.ieee.org/abstract/document/10610431) has been published in [2024 IEEE International Conference on Robotics and Automation (ICRA)](https://ieeexplore.ieee.org/xpl/conhome/10609961/proceeding).
-- *2022.12*, Our paper [Piezoelectric soft robot driven by mechanical energy](https://link.springer.com/article/10.1007/s12274-022-5180-y) has been published in [Nano Research](https://link.springer.com/journal/12274/volumes-and-issues) (IF: 9.0).
+- *2022.12*, Our paper [Piezoelectric soft robot driven by mechanical energy](https://link.springer.com/article/10.1007/s12274-022-5180-y) has been published in [Nano Research](https://link.springer.com/journal/12274/volumes-and-issues) (IF: 9.9).
 
 # 📝 Publications 
 

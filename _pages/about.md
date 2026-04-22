@@ -16,15 +16,13 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes sensors and actuators. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=YNtkd3YAAAAJ'>google scholar citations <strong><span id='total_cit'>80+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=YNtkd3YAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes sensors and actuators.
 
 
 # 🔥 News
 - *2026.04*, Our paper [In Situ Detection of Ferromagnetic Wear Debris for Machinery Condition Monitoring](https://ieeexplore.ieee.org/document/11478654) has been published in [IEEE Sensors Journal](https://ieee-sensors.org/ieee-sensors-journal/) (IF: 4.3).
 - *2024.08*, Our paper [LeapRun: A Dynamic Soft Robot with Running and Jumping Capabilities](https://ieeexplore.ieee.org/abstract/document/10610431) has been published in [2024 IEEE International Conference on Robotics and Automation (ICRA)](https://ieeexplore.ieee.org/xpl/conhome/10609961/proceeding).
+- *2023.09*, Our paper [Self-powered bionic antenna based on triboelectric nanogenerator for micro-robotic tactile sensing](https://www.sciencedirect.com/science/article/abs/pii/S2211285523004810) has been published in [Nano Energy](https://www.sciencedirect.com/journal/nano-energy) (IF: 16.8).
 - *2022.12*, Our paper [Piezoelectric soft robot driven by mechanical energy](https://link.springer.com/article/10.1007/s12274-022-5180-y) has been published in [Nano Research](https://link.springer.com/journal/12274/volumes-and-issues) (IF: 9.9).
 
 # 📝 Publications 

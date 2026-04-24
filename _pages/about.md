@@ -48,8 +48,8 @@ My research interest includes sensors and actuators.
 - *2021.06*, Outstanding Graduate of Xiamen University.
 
 # 📖 Educations
-- *2021.09 - 2024.06*, M.S. in Instrumentation Science and Technology, Tsinghua University, Shenzhen, China.
-- *2017.09 - 2021.06*, B.S. in Electronic Information Science and Technology, Xiamen University, Xiamen, China.
+- *2021.09 - 2024.06*, M.S. in Instrumentation Science and Technology, [Tsinghua University](https://www.tsinghua.edu.cn/), Shenzhen, China.
+- *2017.09 - 2021.06*, B.S. in Electronic Information Science and Technology, [Xiamen University](https://www.xmu.edu.cn/), Xiamen, China.
 
 # 💻 Internships
 - *2023.07 - 2023.10*, [Tencent Robotics X](https://roboticsx.tencent.com/#/), China.

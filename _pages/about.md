@@ -29,7 +29,7 @@ My research interest includes sensors and actuators.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Research 2022</div><img src='images/NanoResearch2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Research 2022</div><img src='images/NanoResearch2022.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Jiangfeng Lu**, Zicong Miao, Zihan Wang, Ying Liu, Dekuan Zhu, Jihong Yin, Fei Tang, Xiaohao Wang, Wenbo Ding, and Min Zhang 

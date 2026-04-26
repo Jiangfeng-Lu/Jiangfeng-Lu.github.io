@@ -35,6 +35,7 @@ My research interest includes sensors and actuators.
 **Jiangfeng Lu**, Zicong Miao, Zihan Wang, Ying Liu, Dekuan Zhu, Jihong Yin, Fei Tang, Xiaohao Wang, Wenbo Ding & Min Zhang 
 
 This paper introduces a triboelectric effect-driven piezoelectric soft robot (TEPSR) system, a novel approach to addressing the critical challenge of power supply for soft robotics.
+
 # 🏆 Honors and Awards
 - *2024.06*, [Outstanding Graduate of Beijing](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html).
 - *2021.06*, Outstanding Graduate of Xiamen University.

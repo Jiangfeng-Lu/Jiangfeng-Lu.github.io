@@ -29,20 +29,12 @@ My research interest includes sensors and actuators.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Research 2022</div><img src='images/NanoResearch2022.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**Jiangfeng Lu**, Zicong Miao, Zihan Wang, Ying Liu, Dekuan Zhu, Jihong Yin, Fei Tang, Xiaohao Wang, Wenbo Ding & Min Zhang 
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=YNtkd3YAAAAJ&citation_for_view=YNtkd3YAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='YNtkd3YAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
+This paper introduces a triboelectric effect-driven piezoelectric soft robot (TEPSR) system, a novel approach to addressing the critical challenge of power supply for soft robotics.
 # 🏆 Honors and Awards
 - *2024.06*, [Outstanding Graduate of Beijing](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html).
 - *2021.06*, Outstanding Graduate of Xiamen University.

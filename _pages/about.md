@@ -32,7 +32,7 @@ My research interest includes sensors and actuators.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Research 2022</div><img src='images/NanoResearch2022.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Jiangfeng Lu**, Zicong Miao, Zihan Wang, Ying Liu, Dekuan Zhu, Jihong Yin, Fei Tang, Xiaohao Wang, Wenbo Ding & Min Zhang 
+**Jiangfeng Lu**, Zicong Miao, Zihan Wang, Ying Liu, Dekuan Zhu, Jihong Yin, Fei Tang, Xiaohao Wang, Wenbo Ding \& Min Zhang 
 
 This paper introduces a triboelectric effect-driven piezoelectric soft robot (TEPSR) system, a novel approach to addressing the critical challenge of power supply for soft robotics.
 

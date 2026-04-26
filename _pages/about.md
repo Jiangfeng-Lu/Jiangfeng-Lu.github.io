@@ -42,6 +42,7 @@ This paper introduces a triboelectric effect-driven piezoelectric soft robot (TE
 
 # 🏆 Honors and Awards
 - *2024.06*, [Outstanding Graduate of Beijing](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html).
+- *2021.12*, [18th China Postgraduate Mathematical Modeling Contest (Huawei Cup), Second Prize](https://cpipc.acge.org.cn//cw/detail/4/2c90800c7dd545b7017dfe9a610e0e5d).
 - *2021.06*, Outstanding Graduate of Xiamen University.
 
 # 📖 Educations

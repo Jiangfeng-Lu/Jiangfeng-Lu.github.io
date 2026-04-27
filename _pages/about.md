@@ -28,13 +28,23 @@ My research interest includes sensors and actuators.
 - *2022.12*, Our paper [Piezoelectric soft robot driven by mechanical energy](https://link.springer.com/article/10.1007/s12274-022-5180-y) has been published in [Nano Research](https://link.springer.com/journal/12274/volumes-and-issues) (IF: 9.9).
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Sensors Journal 2026</div><img src='images/IEEESensorsJournal2026.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[In Situ Detection of Ferromagnetic Wear Debris for Machinery Condition Monitoring](https://ieeexplore.ieee.org/document/11478654)
+
+**Jiangfeng Lu**, Jinbo Qiu, Cong Liu, Shuotian Sun, Yanfeng Lu, and Xiang Sun
+
+This paper presents an in situ dual-parameter sensor that utilizes both magnetization and eddy-current effects to achieve continuous, full-range monitoring of ferromagnetic wear debris from micron-scale to macro-scale.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Research 2022</div><img src='images/NanoResearch2022.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Piezoelectric soft robot driven by mechanical energy](https://link.springer.com/article/10.1007/s12274-022-5180-y)
 
-**Jiangfeng Lu**, Zicong Miao, Zihan Wang, Ying Liu, Dekuan Zhu, Jihong Yin, Fei Tang, Xiaohao Wang, Wenbo Ding, and Min Zhang 
+**Jiangfeng Lu**, Zicong Miao, Zihan Wang, Ying Liu, Dekuan Zhu, Jihong Yin, Fei Tang, Xiaohao Wang, Wenbo Ding, and Min Zhang
 
 This paper introduces a triboelectric effect-driven piezoelectric soft robot (TEPSR) system, a novel approach to addressing the critical challenge of power supply for soft robotics.
 </div>

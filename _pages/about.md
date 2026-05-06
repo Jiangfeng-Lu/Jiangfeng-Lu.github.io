@@ -39,6 +39,17 @@ This paper presents an in situ dual-parameter sensor that utilizes both magnetiz
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2024</div><img src='images/ICRA2024.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LeapRun: A Dynamic Soft Robot with Running and Jumping Capabilities](https://ieeexplore.ieee.org/abstract/document/10610431)
+
+**J. Lu**, J. Liang, D Zhu, D Wang, Y Liu, H Chen, Y Bai, H Zhang, and M Zhang
+
+This paper introduces LeapRun, an insect-scale dynamic soft robot integrating piezoelectric actuation with a shape memory alloy-driven magnetic locking mechanism, to achieve agile running and continuous jumping capabilities for complex terrain traversal
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Research 2022</div><img src='images/NanoResearch2022.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

@@ -46,7 +46,7 @@ This paper presents an in situ dual-parameter sensor that utilizes both magnetiz
 
 **J. Lu**, J. Liang, D Zhu, D Wang, Y Liu, H Chen, Y Bai, H Zhang, and M Zhang
 
-This paper introduces LeapRun, an insect-scale dynamic soft robot integrating piezoelectric actuation with a shape memory alloy-driven magnetic locking mechanism, to achieve agile running and continuous jumping capabilities for complex terrain traversal
+This paper introduces LeapRun, an insect-scale dynamic soft robot integrating piezoelectric actuation with a shape memory alloy-driven magnetic locking mechanism, to achieve agile running and continuous jumping capabilities for complex terrain traversal.
 </div>
 </div>
 

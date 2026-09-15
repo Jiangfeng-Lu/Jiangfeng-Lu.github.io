@@ -31,7 +31,7 @@ redirect_from:
 
 <h2 class="section-title" id="publications">Publications</h2>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Sensors Journal 2026</div><img src='images/IEEESensorsJournal2026.jpg' loading="lazy" alt="Research illustration" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Sensors Journal 2026</div><img src='images/IEEESensorsJournal2026.jpg' loading="lazy" alt="Research illustration" width="4000" height="2399"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [In Situ Detection of Ferromagnetic Wear Debris for Machinery Condition Monitoring](https://ieeexplore.ieee.org/document/11478654)
@@ -44,7 +44,7 @@ This paper presents an in situ dual-parameter sensor that utilizes both magnetiz
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2024</div><img src='images/ICRA2024.jpg' loading="lazy" alt="Research illustration" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2024</div><img src='images/ICRA2024.jpg' loading="lazy" alt="Research illustration" width="4000" height="2399"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LeapRun: A Dynamic Soft Robot with Running and Jumping Capabilities](https://ieeexplore.ieee.org/abstract/document/10610431)
@@ -57,7 +57,7 @@ This paper introduces LeapRun, an insect-scale dynamic soft robot integrating pi
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Research 2022</div><img src='images/NanoResearch2022.jpg' loading="lazy" alt="Research illustration" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Research 2022</div><img src='images/NanoResearch2022.jpg' loading="lazy" alt="Research illustration" width="4000" height="2399"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Piezoelectric soft robot driven by mechanical energy](https://link.springer.com/article/10.1007/s12274-022-5180-y)

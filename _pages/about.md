@@ -9,15 +9,64 @@ redirect_from:
 ---
 
 <div class="hero" id="about-me">
-  <p class="eyebrow">ELECTRONICS &middot; SENSING &middot; ROBOTICS</p>
-  <h1>Connecting electronics<br>with the physical world.</h1>
+  <h1>Research interests</h1>
   <p class="hero-description">I'm Jiangfeng Lu, an electronic engineer interested in sensors and actuators. My research explores tactile sensing, machinery monitoring, and insect-scale soft robots.</p>
   <div class="research-tags"><span>Sensors &amp; actuators</span><span>Soft robotics</span><span>Hardware systems</span></div>
   <div class="hero-actions"><a class="contact-button" href="mailto:{{ site.author.email }}">Get in touch <span aria-hidden="true">&#8599;</span></a><a href="#publications">Explore my research <span aria-hidden="true">&#8595;</span></a></div>
 </div>
 <div class="scholar-summary" aria-live="polite">
-  <div><span class="eyebrow">RESEARCH IMPACT</span><p><strong id="total_cit">&mdash;</strong> <span>Google Scholar citations</span></p></div>
+  <div><span class="eyebrow">Cited by</span><p><strong id="total_cit">&mdash;</strong> <span>Google Scholar citations</span></p></div>
   <p id="scholar-status">Citation data is currently unavailable.</p>
+</div>
+
+<h2 class="section-title" id="publications">Publications</h2>
+
+<div class="paper-box">
+<div class="paper-box-text" markdown="1">
+
+[In Situ Detection of Ferromagnetic Wear Debris for Machinery Condition Monitoring](https://ieeexplore.ieee.org/document/11478654)
+
+**Jiangfeng Lu**, Jinbo Qiu, Cong Liu, Shuotian Sun, Yanfeng Lu, and Xiang Sun
+
+This paper presents an in situ dual-parameter sensor that utilizes both magnetization and eddy-current effects to achieve continuous, full-range monitoring of ferromagnetic wear debris from micron-scale to macro-scale.
+
+<p class="show_paper_citations" hidden></p>
+
+<p class="paper-venue">IEEE Sensors Journal 2026</p>
+<details class="paper-figure"><summary>Research figure</summary><img src='images/IEEESensorsJournal2026.jpg' loading="lazy" alt="Research illustration" width="4000" height="2399"></details>
+</div>
+</div>
+
+<div class="paper-box">
+<div class="paper-box-text" markdown="1">
+
+[LeapRun: A Dynamic Soft Robot with Running and Jumping Capabilities](https://ieeexplore.ieee.org/abstract/document/10610431)
+
+**Jiangfeng Lu**, Jiaming Liang, Dekuan Zhu, Dongkai Wang, Ying Liu, Huimin Chen, Yunfei Bai, Haolong Zhang, and Min Zhang
+
+This paper introduces LeapRun, an insect-scale dynamic soft robot integrating piezoelectric actuation with a shape memory alloy-driven magnetic locking mechanism, to achieve agile running and continuous jumping capabilities for complex terrain traversal.
+
+<p class="show_paper_citations" hidden></p>
+
+<p class="paper-venue">ICRA 2024</p>
+<details class="paper-figure"><summary>Research figure</summary><img src='images/ICRA2024.jpg' loading="lazy" alt="Research illustration" width="4000" height="2399"></details>
+</div>
+</div>
+
+<div class="paper-box">
+<div class="paper-box-text" markdown="1">
+
+[Piezoelectric soft robot driven by mechanical energy](https://link.springer.com/article/10.1007/s12274-022-5180-y)
+
+**Jiangfeng Lu**, Zicong Miao, Zihan Wang, Ying Liu, Dekuan Zhu, Jihong Yin, Fei Tang, Xiaohao Wang, Wenbo Ding, and Min Zhang
+
+This paper introduces a triboelectric effect-driven piezoelectric soft robot (TEPSR) system, a novel approach to addressing the critical challenge of power supply for soft robotics.
+
+<p class="show_paper_citations" hidden></p>
+
+<p class="paper-venue">Nano Research 2022</p>
+<details class="paper-figure"><summary>Research figure</summary><img src='images/NanoResearch2022.jpg' loading="lazy" alt="Research illustration" width="4000" height="2399"></details>
+</div>
 </div>
 
 <h2 class="section-title" id="news">News</h2>
@@ -28,47 +77,6 @@ redirect_from:
 - *2023.08*, Our paper [Power Autonomy and Agility Control of an Untethered Insect-Scale Soft Robot](https://journals.sagepub.com/doi/full/10.1089/soro.2021.0201) has been published in [Soft Robotics](https://journals.sagepub.com/home/SRB) (IF: 7.9).
 - *2023.06*, Our paper [Complex Three-Dimensional Terrains Traversal of Insect-Scale Soft Robot](https://journals.sagepub.com/doi/full/10.1089/soro.2022.0073) has been published in [Soft Robotics](https://journals.sagepub.com/home/SRB) (IF: 7.9).
 - *2022.12*, Our paper [Piezoelectric soft robot driven by mechanical energy](https://link.springer.com/article/10.1007/s12274-022-5180-y) has been published in [Nano Research](https://link.springer.com/journal/12274/volumes-and-issues) (IF: 9.9).
-
-<h2 class="section-title" id="publications">Publications</h2>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Sensors Journal 2026</div><img src='images/IEEESensorsJournal2026.jpg' loading="lazy" alt="Research illustration" width="4000" height="2399"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[In Situ Detection of Ferromagnetic Wear Debris for Machinery Condition Monitoring](https://ieeexplore.ieee.org/document/11478654)
-
-**Jiangfeng Lu**, Jinbo Qiu, Cong Liu, Shuotian Sun, Yanfeng Lu, and Xiang Sun
-
-This paper presents an in situ dual-parameter sensor that utilizes both magnetization and eddy-current effects to achieve continuous, full-range monitoring of ferromagnetic wear debris from micron-scale to macro-scale.
-
-<p class="show_paper_citations" hidden></p>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2024</div><img src='images/ICRA2024.jpg' loading="lazy" alt="Research illustration" width="4000" height="2399"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[LeapRun: A Dynamic Soft Robot with Running and Jumping Capabilities](https://ieeexplore.ieee.org/abstract/document/10610431)
-
-**Jiangfeng Lu**, Jiaming Liang, Dekuan Zhu, Dongkai Wang, Ying Liu, Huimin Chen, Yunfei Bai, Haolong Zhang, and Min Zhang
-
-This paper introduces LeapRun, an insect-scale dynamic soft robot integrating piezoelectric actuation with a shape memory alloy-driven magnetic locking mechanism, to achieve agile running and continuous jumping capabilities for complex terrain traversal.
-
-<p class="show_paper_citations" hidden></p>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Research 2022</div><img src='images/NanoResearch2022.jpg' loading="lazy" alt="Research illustration" width="4000" height="2399"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Piezoelectric soft robot driven by mechanical energy](https://link.springer.com/article/10.1007/s12274-022-5180-y)
-
-**Jiangfeng Lu**, Zicong Miao, Zihan Wang, Ying Liu, Dekuan Zhu, Jihong Yin, Fei Tang, Xiaohao Wang, Wenbo Ding, and Min Zhang
-
-This paper introduces a triboelectric effect-driven piezoelectric soft robot (TEPSR) system, a novel approach to addressing the critical challenge of power supply for soft robotics.
-
-<p class="show_paper_citations" hidden></p>
-</div>
-</div>
 
 <h2 class="section-title" id="honors-and-awards">Honors and Awards</h2>
 

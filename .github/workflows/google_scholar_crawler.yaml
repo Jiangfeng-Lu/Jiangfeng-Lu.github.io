@@ -33,10 +33,19 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r google_scholar_crawler/requirements.txt
       - name: Fetch Scholar data
-        run: python google_scholar_crawler/main.py
+        id: scholar
+        shell: bash
+        run: |
+          if timeout --kill-after=10s 5m python google_scholar_crawler/main.py; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "Scholar update skipped; keeping the last successful snapshot." >> "$GITHUB_STEP_SUMMARY"
+          fi
         env:
           GOOGLE_SCHOLAR_ID: ${{ vars.GOOGLE_SCHOLAR_ID || secrets.GOOGLE_SCHOLAR_ID }}
       - name: Publish successful snapshot
+        if: steps.scholar.outputs.available == 'true'
         shell: bash
         run: |
           set -euo pipefail

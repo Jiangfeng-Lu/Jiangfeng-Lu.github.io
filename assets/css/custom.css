@@ -14,6 +14,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #087e83; outline-offs
 #main { max-width: 1240px; margin: 48px auto 80px; padding: 0 24px; display: grid; grid-template-columns: 235px minmax(0, 1fr); gap: 52px; }
 #main::after, #main::before { display: none; }
 #main .sidebar, #main .page { width: auto; float: none; padding: 0; margin: 0; min-width: 0; }
+#main .sidebar { align-self: start; position: static; }
 .profile_box { display: block; padding: 26px 22px; background: white; border: 1px solid var(--line); border-radius: 18px; }
 .author__avatar { display: block; width: auto; }
 .author__avatar img { width: 132px; height: 132px; min-width: 0; padding: 4px; object-fit: cover; border: 1px solid var(--line); }
@@ -26,6 +27,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #087e83; outline-offs
 .author__urls li { white-space: normal; color: var(--muted); }
 .author__urls a { font-size: 14px; padding: 5px 0; }
 .page__content .hero { padding: 38px; background: #eaf3f1; border: 1px solid #d8e8e3; border-radius: 20px; margin: 0; }
+.page__content #about-me { margin-top: 0; }
 .page__content #about-me::before, h1::before { display: none; }
 .eyebrow { color: #386966; font-size: 11px !important; font-weight: 700; letter-spacing: 1.8px; }
 .page__content .hero h1 { font-size: clamp(30px, 3.5vw, 44px); letter-spacing: -1.8px; line-height: 1.15; border: 0; padding: 0; margin: 16px 0 22px; }

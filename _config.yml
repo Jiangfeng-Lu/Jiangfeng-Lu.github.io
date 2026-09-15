@@ -8,7 +8,8 @@
 # Site Settings
 title                    : "Jiangfeng Lu"
 description              : "An electronic engineer passionate about building reliable hardware systems and bridging the gap between electronics and software."
-repository               : "RayeRen/acad-homepage.github.io"
+repository               : "Jiangfeng-Lu/Jiangfeng-Lu.github.io"
+google_scholar_id        : "YNtkd3YAAAAJ" # Public profile ID; Actions also supports GOOGLE_SCHOLAR_ID.
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -27,7 +28,7 @@ author:
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=YNtkd3YAAAAJ&hl=en"
   email            : "ljf21@tsinghua.org.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -66,6 +67,7 @@ include:
   - files
 exclude:
   - docs
+  - tests
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"

@@ -103,8 +103,8 @@
       {% if author.vine %}
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
       {% endif %}
-      {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      {% if author.googlescholar != empty or site.google_scholar_id != empty %}
+        <li><a href="{% if site.google_scholar_id != empty %}https://scholar.google.com/citations?user={{ site.google_scholar_id }}{% else %}{{ author.googlescholar }}{% endif %}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
@@ -198,8 +198,8 @@
       {% if author.vine %}
         <a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i></a>
       {% endif %}
-      {% if author.googlescholar %}
-        <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
+      {% if author.googlescholar != empty or site.google_scholar_id != empty %}
+        <a href="{% if site.google_scholar_id != empty %}https://scholar.google.com/citations?user={{ site.google_scholar_id }}{% else %}{{ author.googlescholar }}{% endif %}"><i class="fas fa-fw fa-graduation-cap"></i></a>
       {% endif %}
       {% if author.pubmed %}
         <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i></a>

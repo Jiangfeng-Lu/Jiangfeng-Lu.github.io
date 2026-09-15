@@ -1,7 +1,7 @@
 /* Academic profile inspired by Google Scholar: compact type and publication rows. */
 :root { --ink: #222; --muted: #666; --accent: #1a0dab; --line: #e5e5e5; }
 html { font-size: 14px; scroll-behavior: smooth; scroll-padding-top: var(--anchor-offset, 90px); }
-body { margin: 0; padding: 0; background: #fff; color: var(--ink); font-family: Arial, Helvetica, sans-serif; line-height: 1.5; }
+body { margin: 0; padding: var(--masthead-height, 60px) 0 0; background: #fff; color: var(--ink); font-family: Arial, Helvetica, sans-serif; line-height: 1.5; }
 h1, h2, h3, h4, p, li { font-family: inherit; }
 a { color: var(--accent); }
 a:hover { color: var(--accent); text-decoration: underline; }
@@ -91,3 +91,4 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
   .page__content > ul { padding-left: 18px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
+@media print { body { padding-top: 0; } }

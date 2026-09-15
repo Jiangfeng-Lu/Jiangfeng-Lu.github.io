@@ -6,9 +6,10 @@
   var content = document.querySelector('.page__content');
   if (!header || !content) return;
   function updateOffsets() {
-    var offset = Math.ceil(header.getBoundingClientRect().height) + 24;
+    var height = Math.ceil(header.getBoundingClientRect().height);
+    var offset = height + 24;
+    document.documentElement.style.setProperty('--masthead-height', height + 'px');
     document.documentElement.style.setProperty('--anchor-offset', offset + 'px');
-
   }
 
   updateOffsets();

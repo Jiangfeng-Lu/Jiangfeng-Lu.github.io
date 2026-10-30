@@ -11,6 +11,8 @@ description              : "An electronic engineer passionate about building rel
 repository               : "Jiangfeng-Lu/Jiangfeng-Lu.github.io"
 google_scholar_id        : "YNtkd3YAAAAJ" # Public profile ID; Actions also supports GOOGLE_SCHOLAR_ID.
 google_scholar_stats_use_cdn : true
+citation_count           : 114
+citation_updated         : "2026-10-30"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -38,7 +40,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "Jiangfeng-Lu"
   google_plus      :
   keybase          :
   instagram        :

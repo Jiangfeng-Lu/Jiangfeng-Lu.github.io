@@ -2,41 +2,87 @@ const { test } = require('node:test');
 const assert = require('node:assert/strict');
 const vm = require('node:vm');
 const fs = require('node:fs');
+
 const source = fs.readFileSync('assets/js/scholar.js', 'utf8');
+
 async function run(responses, options = {}) {
-  const total = { textContent: '—' };
-  const status = { textContent: '', appendChild() {} };
-  const paper = { hidden: true, dataset: {}, getAttribute() {}, closest() { return { querySelector() { return { textContent: 'Test paper' }; } }; } };
+  const total = { textContent: '114' };
+  const status = { textContent: '', children: [], appendChild(node) { this.children.push(node); } };
+  const paper = {
+    hidden: true,
+    dataset: {},
+    getAttribute() { return null; },
+    closest() { return { querySelector() { return { textContent: 'Test paper' }; } }; }
+  };
   const calls = [];
   const document = {
-    currentScript: { dataset: { repository: 'owner/repo', scholarId: 'testID', useCdn: 'true' } },
+    currentScript: {
+      dataset: {
+        repository: 'owner/repo',
+        scholarId: 'testID',
+        fallbackCount: '114',
+        fallbackUpdated: '2026-10-30',
+        useCdn: 'true'
+      }
+    },
     getElementById(id) { return id === 'total_cit' ? (options.noTotal ? null : total) : status; },
-    querySelector() { return paper; }, querySelectorAll() { return [paper]; },
-    createElement() { return {}; }, createTextNode(text) { return text; }
+    querySelector() { return paper; },
+    querySelectorAll() { return [paper]; },
+    createElement() { return {}; },
+    createTextNode(text) { return { textContent: text }; }
   };
-  vm.runInNewContext(source, { document, AbortController, setTimeout, clearTimeout, fetch: async url => {
-    calls.push(url);
-    const response = responses.shift();
-    if (response instanceof Error) throw response;
-    return { ok: true, json: async () => response };
-  } });
+
+  vm.runInNewContext(source, {
+    document,
+    AbortController,
+    setTimeout,
+    clearTimeout,
+    fetch: async url => {
+      calls.push(url);
+      const response = responses.shift();
+      if (response instanceof Error) throw response;
+      return { ok: true, json: async () => response };
+    }
+  });
+
   await new Promise(resolve => setImmediate(resolve));
   return { total, status, paper, calls };
 }
-const data = { scholar_id: 'testID', citedby: 0, publications: { p: { bib: { title: 'Test paper' }, num_citations: 0 } } };
-test('renders zero citations and matches publication titles', async () => {
-  const r = await run([data]);
-  assert.equal(r.total.textContent, '0'); assert.equal(r.paper.textContent, 'Citations: 0'); assert.equal(r.paper.hidden, false);
+
+const data = {
+  scholar_id: 'testID',
+  citedby: 120,
+  updated: '2026-11-01',
+  publications: { p: { bib: { title: 'Test paper' }, num_citations: 7 } }
+};
+
+test('renders live citations and matches publication titles', async () => {
+  const result = await run([data]);
+  assert.equal(result.total.textContent, '120');
+  assert.equal(result.paper.textContent, 'Citations: 7');
+  assert.equal(result.paper.hidden, false);
 });
-test('falls back when the CDN fails', async () => {
-  const r = await run([new Error('offline'), data]);
-  assert.equal(r.calls.length, 2); assert.match(r.calls[1], /raw.githubusercontent.com/); assert.equal(r.total.textContent, '0');
+
+test('never replaces the manual snapshot with an older lower count', async () => {
+  const result = await run([{ ...data, citedby: 100, updated: '2026-10-01' }]);
+  assert.equal(result.total.textContent, '114');
 });
-test('rejects wrong profile and malformed data without displaying zero', async () => {
-  const r = await run([{ ...data, scholar_id: 'someoneElse' }, { citedby: '100' }]);
-  assert.equal(r.total.textContent, '—'); assert.match(r.status.textContent, /unavailable/); assert.equal(r.paper.hidden, true);
+
+test('falls back to the alternate host', async () => {
+  const result = await run([new Error('offline'), data]);
+  assert.equal(result.calls.length, 2);
+  assert.match(result.calls[1], /raw\.githubusercontent\.com/);
 });
-test('missing total element and missing publication do not crash', async () => {
-  const r = await run([{ ...data, publications: {} }], { noTotal: true });
-  assert.equal(r.paper.hidden, true); assert.equal(r.calls.length, 1);
+
+test('keeps the manual snapshot when both hosts return invalid data', async () => {
+  const result = await run([{ ...data, scholar_id: 'someoneElse' }, { citedby: '120' }]);
+  assert.equal(result.total.textContent, '114');
+  assert.match(result.status.textContent, /Updated/);
+  assert.equal(result.paper.hidden, true);
+});
+
+test('a missing total element and publication match do not crash', async () => {
+  const result = await run([{ ...data, publications: {} }], { noTotal: true });
+  assert.equal(result.paper.hidden, true);
+  assert.equal(result.calls.length, 1);
 });
